@@ -15,6 +15,8 @@ Create cron job to run the script every minute.  Create ```/etc/cron.d/relays```
 * *	* * *	root    /home/pi/relays/relays.py --config /home/pi/relays/relays.yaml >> /tmp/relays.log 2>&1
 ```
 
+That's it.  Any time you need to change the schedule for the relays, just edit the configuration file and the changes will take effect the next minute that cron runs the script.
+
 
 # Configuration
 
