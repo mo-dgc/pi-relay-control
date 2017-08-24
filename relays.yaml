@@ -8,16 +8,10 @@ relays:
       - start: "11:00"
         stop: "23:00"
   1:
-    description: "Cooling Fan"
+    description: "Unused"
     pin: 18
-    auto: True
+    auto: False
     schedule:
-      - start: "22:08"
-        stop: "22:09"
-      - start: "22:10"
-        stop: "22:11"
-      - start: "22:12"
-        stop: "22:13"
   2:
     description: "Unused"
     pin: 27
