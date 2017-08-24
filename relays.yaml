@@ -1,0 +1,32 @@
+mode: BCM
+relays:
+  0:
+    description: "Lights"
+    pin: 17
+    auto: True
+    schedule:
+      - start: "11:00"
+        stop: "23:00"
+  1:
+    description: "Cooling Fan"
+    pin: 18
+    auto: True
+    schedule:
+      - start: "22:08"
+        stop: "22:09"
+      - start: "22:10"
+        stop: "22:11"
+      - start: "22:12"
+        stop: "22:13"
+  2:
+    description: "Unused"
+    pin: 27
+    auto: False
+    schedule:
+  3:
+    description: "Pump"
+    pin: 22
+    auto: True
+    schedule:
+      - start: "11:10"
+        stop: "11:25"
